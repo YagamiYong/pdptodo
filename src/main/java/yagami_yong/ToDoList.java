@@ -14,5 +14,19 @@ public class ToDoList {
         System.out.println("Vazifa qo'shildi: " + task);
     }
 
+    public void deleteTask(int id) {
+        tasks.removeIf(task -> task.getId() == id);
+        System.out.println("ID " + id + " bilan vazifa o'chirildi.");
+    }
 
+    public void updateTask(int id, String newName) {
+        for (Task task : tasks) {
+            if (task.getId() == id) {
+                task.setName(newName);
+                System.out.println("Vazifa yangilandi: " + task);
+                return;
+            }
+        }
+        System.out.println("ID " + id + " bilan vazifa topilmadi.");
+    }
 }

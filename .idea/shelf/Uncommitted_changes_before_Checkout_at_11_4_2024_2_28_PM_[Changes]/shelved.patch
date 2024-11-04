@@ -1,0 +1,12 @@
+Index: src/main/java/yagami_yong/Task.java
+===================================================================
+diff --git a/src/main/java/yagami_yong/Task.java b/src/main/java/yagami_yong/Task.java
+deleted file mode 100644
+--- a/src/main/java/yagami_yong/Task.java	(revision 876e22d0fc074cdacee7045f644e05b28cc35a0c)
++++ /dev/null	(revision 876e22d0fc074cdacee7045f644e05b28cc35a0c)
+@@ -1,5 +0,0 @@
+-package yagami_yong;
+-
+-public class Task {
+-
+-}
